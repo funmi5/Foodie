@@ -3,6 +3,8 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
+    jest: true,
+    commonjs: true
   },
   extends: [
     'airbnb',
@@ -22,5 +24,6 @@ module.exports = {
     'react',
   ],
   rules: {
+    "linebreak-style": 0,
   },
 };
